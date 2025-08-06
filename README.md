@@ -11,7 +11,7 @@
 
 ## 🧩 **Introduction**
 
-Storage Nodes are the foundation of 0G's decentralized storage—while validator nodes secure the chain, storage nodes keep critical data persistent, available, and distributed. Running a storage node means you’re actively supporting the network’s long-term AI dataset and model hosting capabilities, contributing to resilience and decentralization.
+Storage Nodes are the foundation of 0G's decentralized storage while validator nodes secure the chain, storage nodes keep critical data persistent, available, and distributed. Running a storage node means you’re actively supporting the network’s long-term AI dataset and model hosting capabilities, contributing to resilience and decentralization.
 
 ---
 
@@ -287,55 +287,7 @@ Then **restart from the repository clone step** and don’t forget the latest sn
 
 <div align="center">
 
-# 🚀 **Upgrading to v1.1.0 Release**
 
-</div>
-
-1. **Stop service:**
-
-   ```bash
-   sudo systemctl stop zgs
-   ```
-
-2. **Reset, fetch, and switch repo:**
-
-   ```bash
-   cd ~/0g-storage-node
-   git reset --hard
-   git clean -fd
-   git fetch --all
-   git checkout v1.1.0
-   git submodule update --init --recursive
-   ```
-
-3. **Build new version:**
-
-   ```bash
-   sudo apt-get install protobuf-compiler
-   cargo build --release
-   ```
-
-4. **Reapply config:**
-   [Configuration instructions](https://github.com/Mayankgg01/0G-Storage-Node-Guide?tab=readme-ov-file#set-configrations)
-
-5. **Restart node:**
-
-   ```bash
-   sudo systemctl start zgs
-   ```
-
-6. **Re-sync from snapshot for speed:**
-   [Snapshot guide](https://github.com/Mayankgg01/0G-Storage-Node-Guide?tab=readme-ov-file#-download-snapshot-for-faster-sync-)
-
----
-
-## 💬 **Need Help?**
-
-* Telegram: [Join the 0G Community](https://telegram.me/cryptogg)
-* Issues? [Open an issue on GitHub](https://github.com/Mayankgg01/0G-Storage-Node-Guide/issues)
-* DM me (Satyam Jha) on Telegram for direct help!
-
----
 
 <div align="center">
 
@@ -346,4 +298,3 @@ Then **restart from the repository clone step** and don’t forget the latest sn
 
 ---
 
-Let me know if you want this in a different format (PDF, HTML, etc.), or want images hosted somewhere else!
