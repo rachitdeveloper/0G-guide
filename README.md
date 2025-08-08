@@ -164,11 +164,16 @@ WantedBy=multi-user.target
 EOF
 ```
 
-Reload & enable:
-
-```bash
+## Reload
+```
 sudo systemctl daemon-reload
+```
+## Enable
+```
 sudo systemctl enable zgs
+```
+## Start
+```
 sudo systemctl start zgs
 ```
 
@@ -274,10 +279,16 @@ That’s it—your node will sync quickly from the latest snapshot!
 
 If your VPS storage is full or you want a clean reset:
 
-```bash
+```
 sudo systemctl stop zgs
+```
+```
 sudo systemctl disable zgs
+```
+```
 sudo rm /etc/systemd/system/zgs.service
+```
+```
 rm -rf $HOME/0g-storage-node
 ```
 
