@@ -238,38 +238,7 @@ sudo systemctl restart zgs
 
 <div align="center">
 
-# ⚡ **Fast Sync: Download Snapshot** ⚡
 
-</div>
-
-To sync from block `3562700`:
-
-1. **Stop your node & delete the flow DB:**
-
-   ```bash
-   sudo systemctl stop zgs
-   ```
-   ```
-   rm -rf $HOME/0g-storage-node/run/db/flow_db
-   ```
-
-2. **Download and extract:**
-
-  ```
-wget https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.gz \
-  -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && \
-  tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
-```
-
-3. **Restart the node:**
-
-   ```bash
-   sudo systemctl restart zgs
-   ```
-
-That’s it—your node will sync quickly from the latest snapshot!
-
----
 
 <div align="center">
 
