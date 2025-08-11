@@ -3,7 +3,7 @@
 
 # 🚀 **0G Storage Node Complete Setup Guide** 🚀
 
-### *by Satyam Jha*
+### *by RACHIT YADAV*
 
 </div>
 
@@ -272,7 +272,7 @@ Then **restart from the repository clone step** and don’t forget the latest sn
 <div align="center">
 
 **Happy coding! You’re now powering the future of decentralized storage.**
-*— Guide by Satyam Jha*
+*— Guide by RACHIT YADAV*
 
 </div>
 
