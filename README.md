@@ -255,11 +255,11 @@ To sync from block `3562700`:
 
 2. **Download and extract:**
 
-   ```bash
-   wget https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.gz \
-     -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && \
-     tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
-   ```
+  ```
+wget https://github.com/Mayankgg01/0G-Storage-Node-Guide/releases/download/v1.0/flow_db.tar.gz \
+  -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && \
+  tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
+```
 
 3. **Restart the node:**
 
