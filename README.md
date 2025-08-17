@@ -204,6 +204,26 @@ while true; do response=$(curl -s -X POST http://localhost:5678 -H "Content-Type
 > ![Sync Example](https://github.com/user-attachments/assets/ab97078b-2c2a-4328-aace-bc94982ab802)
 
 ---
+## ⚡ * ⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `4900000+`
+
+🛠️ Installation Instructions
+
+* Stop The Node & Delete flow db
+
+```
+sudo systemctl stop zgs
+```
+
+```
+rm -rf $HOME/0g-storage-node/run/db/flow_db
+```
+
+* Download and extract the Flow db:
+
+  ```bash
+
+  wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
+  ```
 
 ## 🛑 **Stop & Remove Node**
 
